@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", "sans-serif";
+}
+
+.main {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/21a8ba09-4a61-44f8-8e2e-70e949c00c6f/6678e2ea-85e8-4db2-b440-c36547313109/IN-en-20240722-POP_SIGNUP_TWO_WEEKS-perspective_WEB_3457a8b1-284d-4bb5-979e-2a2e9bb342b3_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 70vh;
+    position: relative;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.50;
+    position: absolute;
+    background-color: black;
+    top: 0;
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    width: 101px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.maincontaint {
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    position: relative;
+    padding: 0 30 px;
+}
+
+.maincontaint h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.maincontaint> :nth-child(2) {
+    font-weight: 400;
+    font-size: 1.125rem;
+    text-align: center;
+}
+
+.separation {
+    height: 6px;
+    background-color: gray;
+    opacity: 0.4;
+}
+
+.btn {
+    padding: 3px 8px;
+    color: white;
+    font-weight: 400;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgba(231, 225, 225, 0.11);
+}
+
+.btn-rd-si {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.btn-rd {
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    padding: 3px 20px;
+    font-size: 24px;
+    border: none;
+}
+
+.main input {
+    border-radius: 4px;
+    color: white;
+    padding: 11px 65px 5px 14px;
+    font-size: 12px;
+    font-weight: 900;
+    border: 1px solid rgba(204, 195, 195, 0.5);
+    background-color: rgba(23, 23, 23, 0.7);
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: calc(100% - 3rem);
+    margin: auto;
+    padding: 20px;
+    /* flex-direction: row;*/
+}
+
+.fof {
+    max-width: 50%;
+    display: block;
+    font-size: 48px;
+}
+
+.secImg {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    max-width: 50%;
+
+}
+
+.secImg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+
+
+h2 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 20px;
+
+}
+
+.faqs {
+    color: white;
+    padding: 4.5rem 0;
+    margin: auto;
+    align-items: center;
+}
+
+.faqs h2 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    
+}
+
+.faqbox:hover {
+    background-color: #414141;
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    display: flex;
+    margin: 5px auto;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    max-width: 65vw;
+    padding: 14px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 34px;
+}
+
+.question {
+    font-size: 10px;
+    padding: 34px 0;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.footer a {
+    font-size: 10px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+
+}
+
+.vid{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 19%;
+    top: 10%;
+    right: 19%;
+    overflow: hidden;
+}
+.vid1{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 13%;
+    top: 21%;
+    right: 14%;
+    overflow: hidden;
+}
+.vid video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.vid1 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
